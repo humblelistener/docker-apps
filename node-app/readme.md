@@ -22,3 +22,6 @@ boot2docker start
 
 # to ssh into the docker host
 boot2docker ssh
+
+# to get the ip for docker host
+boot2docker ip
