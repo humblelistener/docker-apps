@@ -15,3 +15,15 @@ kvm upgrade
 
 #followed by this from the project folder, this is similar to nuget restore, which is how it is called in next release
 kpm restore
+
+
+
+# docker commands 
+# used to build
+docker build -t karthikp/asp-app .
+
+# used to run
+docker run -t -d -p 1004:5004 karthikp/asp-app
+
+# -t switch attaches a pseudo-tty to the container (this switch will not be necessary in future versions of ASP.NET 5) 
+# reference http://blogs.msdn.com/b/webdev/archive/2015/01/14/running-asp-net-5-applications-in-linux-containers-with-docker.aspx
