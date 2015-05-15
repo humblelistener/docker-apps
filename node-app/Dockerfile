@@ -15,4 +15,4 @@ COPY . /node-app
 RUN cd /node-app/src; npm install
 
 EXPOSE  8080
-CMD ["node", "/src/index.js"]
+CMD ["node", "node-app/src/index.js"]
