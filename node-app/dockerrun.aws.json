@@ -1,0 +1,13 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "pageup/node-app/hello-node",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "ContainerPort": "49061"
+    }
+  ],
+  "Logging": "/var/log/"
+}
