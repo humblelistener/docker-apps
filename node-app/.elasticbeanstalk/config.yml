@@ -1,0 +1,10 @@
+branch-defaults:
+  default:
+    environment: hello-node
+global:
+  application_name: node-app
+  default_ec2_keyname: docker-container
+  default_platform: Docker 1.6.0
+  default_region: ap-southeast-2
+  profile: eb-cli
+  sc: null
