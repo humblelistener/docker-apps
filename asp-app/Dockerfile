@@ -4,8 +4,8 @@ COPY . /app
 
 WORKDIR /app
 
-RUN ["kpm", "restore"]
+RUN ["dnu", "restore"]
 
 EXPOSE 5004
 
-ENTRYPOINT ["k", "kestrel"]
+ENTRYPOINT ["dnx", ". kestrel"]
